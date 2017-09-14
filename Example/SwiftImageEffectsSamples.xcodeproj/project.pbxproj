@@ -9,18 +9,22 @@
 /* Begin PBXBuildFile section */
 		0D2A0412361BF5B05922B720 /* Pods_CoeurImageEffectsSamples_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3717FC6E9E08265F200FD /* Pods_CoeurImageEffectsSamples_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		D9C2D9A3F03B3AEEE8CFE1EC /* Pods_SwiftImageEffectsSamples_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDE9D8BE13D35057F1C3406 /* Pods_SwiftImageEffectsSamples_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048C49BBBC9D5726D4D53105 /* Pods-CoeurImageEffectsSamples_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoeurImageEffectsSamples_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoeurImageEffectsSamples_Tests/Pods-CoeurImageEffectsSamples_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		39D5D405A8DC80736AE7BC03 /* CoeurImageEffectsSamples.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CoeurImageEffectsSamples.podspec; path = ../CoeurImageEffectsSamples.podspec; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* CoeurImageEffectsSamples_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoeurImageEffectsSamples_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D5D405A8DC80736AE7BC03 /* SwiftImageEffectsSamples.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftImageEffectsSamples.podspec; path = ../SwiftImageEffectsSamples.podspec; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* SwiftImageEffectsSamples_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftImageEffectsSamples_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		80BC2C9DF734676CBBD499AB /* Pods-CoeurImageEffectsSamples_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoeurImageEffectsSamples_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoeurImageEffectsSamples_Tests/Pods-CoeurImageEffectsSamples_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		85001DD938B74DB17CD56EEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D16DB16FC951AEC128DD711F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		85001DD938B74DB17CD56EEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AB8B7B2D2E605B6961CDA017 /* Pods-SwiftImageEffectsSamples_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftImageEffectsSamples_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftImageEffectsSamples_Tests/Pods-SwiftImageEffectsSamples_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBDE9D8BE13D35057F1C3406 /* Pods_SwiftImageEffectsSamples_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftImageEffectsSamples_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16DB16FC951AEC128DD711F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DCB3717FC6E9E08265F200FD /* Pods_CoeurImageEffectsSamples_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoeurImageEffectsSamples_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE77AF08A2FA6F90D1775E32 /* Pods-SwiftImageEffectsSamples_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftImageEffectsSamples_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftImageEffectsSamples_Tests/Pods-SwiftImageEffectsSamples_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D2A0412361BF5B05922B720 /* Pods_CoeurImageEffectsSamples_Tests.framework in Frameworks */,
+				D9C2D9A3F03B3AEEE8CFE1EC /* Pods_SwiftImageEffectsSamples_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +54,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACE51AFB9204008FA782 /* CoeurImageEffectsSamples_Tests.xctest */,
+				607FACE51AFB9204008FA782 /* SwiftImageEffectsSamples_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,7 +79,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				39D5D405A8DC80736AE7BC03 /* CoeurImageEffectsSamples.podspec */,
+				39D5D405A8DC80736AE7BC03 /* SwiftImageEffectsSamples.podspec */,
 				D16DB16FC951AEC128DD711F /* README.md */,
 				85001DD938B74DB17CD56EEB /* LICENSE */,
 			);
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				DCB3717FC6E9E08265F200FD /* Pods_CoeurImageEffectsSamples_Tests.framework */,
+				CBDE9D8BE13D35057F1C3406 /* Pods_SwiftImageEffectsSamples_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,6 +100,8 @@
 			children = (
 				80BC2C9DF734676CBBD499AB /* Pods-CoeurImageEffectsSamples_Tests.debug.xcconfig */,
 				048C49BBBC9D5726D4D53105 /* Pods-CoeurImageEffectsSamples_Tests.release.xcconfig */,
+				AB8B7B2D2E605B6961CDA017 /* Pods-SwiftImageEffectsSamples_Tests.debug.xcconfig */,
+				FE77AF08A2FA6F90D1775E32 /* Pods-SwiftImageEffectsSamples_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -101,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACE41AFB9204008FA782 /* CoeurImageEffectsSamples_Tests */ = {
+		607FACE41AFB9204008FA782 /* SwiftImageEffectsSamples_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CoeurImageEffectsSamples_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftImageEffectsSamples_Tests" */;
 			buildPhases = (
 				D391007BA5B84B4EBF657F67 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -116,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = CoeurImageEffectsSamples_Tests;
+			name = SwiftImageEffectsSamples_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* CoeurImageEffectsSamples_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* SwiftImageEffectsSamples_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -131,10 +139,6 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
@@ -142,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CoeurImageEffectsSamples" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftImageEffectsSamples" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -155,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACE41AFB9204008FA782 /* CoeurImageEffectsSamples_Tests */,
+				607FACE41AFB9204008FA782 /* SwiftImageEffectsSamples_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,7 +190,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoeurImageEffectsSamples_Tests/Pods-CoeurImageEffectsSamples_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftImageEffectsSamples_Tests/Pods-SwiftImageEffectsSamples_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D391007BA5B84B4EBF657F67 /* [CP] Check Pods Manifest.lock */ = {
@@ -200,7 +204,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CoeurImageEffectsSamples_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SwiftImageEffectsSamples_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -213,13 +217,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftImageEffectsSamples_Tests/Pods-SwiftImageEffectsSamples_Tests-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/SwiftImageEffectsSamples/SwiftImageEffectsSamples.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoeurImageEffectsSamples_Tests/Pods-CoeurImageEffectsSamples_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftImageEffectsSamples_Tests/Pods-SwiftImageEffectsSamples_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -325,7 +332,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80BC2C9DF734676CBBD499AB /* Pods-CoeurImageEffectsSamples_Tests.debug.xcconfig */;
+			baseConfigurationReference = AB8B7B2D2E605B6961CDA017 /* Pods-SwiftImageEffectsSamples_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -345,7 +352,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 048C49BBBC9D5726D4D53105 /* Pods-CoeurImageEffectsSamples_Tests.release.xcconfig */;
+			baseConfigurationReference = FE77AF08A2FA6F90D1775E32 /* Pods-SwiftImageEffectsSamples_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -362,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CoeurImageEffectsSamples" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftImageEffectsSamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -371,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CoeurImageEffectsSamples_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftImageEffectsSamples_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

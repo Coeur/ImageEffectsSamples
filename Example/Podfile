@@ -1,4 +1,4 @@
 use_frameworks!
-target 'CoeurImageEffectsSamples_Tests' do
-  pod 'CoeurImageEffectsSamples', :path => '../'
+target 'SwiftImageEffectsSamples_Tests' do
+  pod 'SwiftImageEffectsSamples', :path => '../'
 end

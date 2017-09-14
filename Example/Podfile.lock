@@ -1,16 +1,16 @@
 PODS:
-  - CoeurImageEffectsSamples (0.1.0)
+  - SwiftImageEffectsSamples (0.1.0)
 
 DEPENDENCIES:
-  - CoeurImageEffectsSamples (from `../`)
+  - SwiftImageEffectsSamples (from `../`)
 
 EXTERNAL SOURCES:
-  CoeurImageEffectsSamples:
+  SwiftImageEffectsSamples:
     :path: ../
 
 SPEC CHECKSUMS:
-  CoeurImageEffectsSamples: 20ea5e07ccc188234da1144de4209ceaa530f16d
+  SwiftImageEffectsSamples: 71d298165a19a56da5ef4c98d51d2a7a0ae07224
 
-PODFILE CHECKSUM: 709b10042f40334f6bba994dc00afddd99016560
+PODFILE CHECKSUM: 16d757dcbb15c6b228311dfdacc443d102b2965d
 
 COCOAPODS: 1.3.1
