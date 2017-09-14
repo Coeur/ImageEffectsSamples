@@ -22,7 +22,7 @@ pod 'CoeurImageEffectsSamples'
 
 ## Author
 
-coeur, coeur@gmx.fr
+Cœur, coeur@gmx.fr
 
 ## License
 
