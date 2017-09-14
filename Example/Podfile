@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CoeurImageEffectsSamples_Tests' do
+  pod 'CoeurImageEffectsSamples', :path => '../'
+  
+  
+end
